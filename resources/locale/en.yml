@@ -1,0 +1,42 @@
+ernestdefoe-mobile-tab:
+  admin:
+    tabs_label: Bottom bar tabs
+    tabs_help: 'Build your mobile bottom bar. Each row is a tab — pick a type, set a Font Awesome icon and label, choose who sees it, and tick "Raised" to make it the lifted center button. Reorder with the arrows. The Site logo and Favicon types show your site image automatically. Leave the list empty to use the default bar.'
+    add_tab: Add tab
+    reset_default: Reset to default
+    raised: Raised (center)
+    remove: Remove tab
+    preview_caption: Live preview (phone) — drag order with the arrows
+    field_type: Type
+    field_icon: Icon
+    field_label: Label
+    field_url: URL
+    field_visibility: Shown to
+    field_center: Center
+    label_placeholder: optional
+    url_placeholder: /path or https://…
+    auto_avatar: avatar (auto)
+    auto_site_image: site image (auto)
+    type:
+      home: Home
+      tags: Tags
+      search: Search
+      notifications: Notifications
+      profile: Profile (avatar)
+      new-discussion: New discussion
+      login: Log in
+      logo: Site logo
+      favicon: Favicon
+      link: Custom link
+    visibility:
+      all: Everyone
+      in: Logged in
+      out: Logged out
+  lib:
+    tab:
+      home: Home
+      tags: Tags
+      notifications: Notifications
+      login: Log in
+      search: Search
+      new: New

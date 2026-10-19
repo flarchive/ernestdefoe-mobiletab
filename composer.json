@@ -1,0 +1,61 @@
+{
+    "name": "ernestdefoe/mobile-tab",
+    "description": "A configurable mobile bottom tab bar for Flarum 2.x — build your own tabs (icon, label, destination), a raised center action, and a logo/favicon slot.",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ernestdefoe",
+            "email": "ernestdefoe@gmail.com",
+            "role": "Maintainer"
+        },
+        {
+            "name": "resofire",
+            "role": "Original author"
+        }
+    ],
+    "support": {
+        "forum": "https://discuss.flarum.org/d/39384-mobile-tab",
+        "issues": "https://github.com/ernestdefoe/mobiletab/issues",
+        "source": "https://github.com/ernestdefoe/mobiletab"
+    },
+    "require": {
+        "flarum/core": "^2.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ErnestDefoe\\MobileTab\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Mobile Tab Bar",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-bars",
+                "backgroundColor": "#69c6b9",
+                "color": "#1A2744"
+            }
+        }
+    },
+    "require-dev": {
+        "flarum/phpstan": "^2.0",
+        "flarum/testing": "^2.0"
+    },
+    "scripts": {
+        "test": [
+            "@test:integration"
+        ],
+        "test:integration": "phpunit -c tests/phpunit.integration.xml",
+        "test:setup": "@php tests/integration/setup.php",
+        "analyse:phpstan": "phpstan analyse"
+    },
+    "scripts-descriptions": {
+        "test": "Runs all tests.",
+        "test:integration": "Runs all integration tests.",
+        "test:setup": "Sets up a database for use with integration tests. Execute this only once.",
+        "analyse:phpstan": "Run static analysis"
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true
+}
