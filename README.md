@@ -2,17 +2,15 @@
 
 > **Read-only archive of released versions of ernestdefoe/mobile-tab.** Not for installation: use [Packagist](https://packagist.org/packages/ernestdefoe/mobile-tab) or the [upstream repository](https://github.com/ernestdefoe/mobiletab).
 
-**3** versions archived · Latest: [`2.0.2`](https://github.com/flarchive/ernestdefoe-mobile-tab/tree/archive/v2.0.2) · License: `MIT` · Flarum: `^2.0`
+**0** versions archived · Latest: [`2.0.3`](https://github.com/flarchive/ernestdefoe-mobiletab/tree/archive/v2.0.3) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| `2.0.0` | 2026-06-06 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-mobile-tab/tree/archive/v2.0.0) |
-| `2.0.1` | 2026-09-12 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-mobile-tab/tree/archive/v2.0.1) |
-| `2.0.2` | 2026-10-15 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-mobile-tab/tree/archive/v2.0.2) |
+| — | — | — | — |
 
-Catalog entry: [packages/ernestdefoe-mobile-tab.json](https://github.com/flarchive/archive-index/blob/main/packages/ernestdefoe-mobile-tab.json)
+Catalog entry: [packages/ernestdefoe-mobiletab.json](https://github.com/flarchive/archive-index/blob/main/packages/ernestdefoe-mobiletab.json)
 
 ## About this archive
 
